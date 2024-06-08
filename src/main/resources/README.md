@@ -32,6 +32,9 @@ that handle client requests and generate dynamic web content, forming a crucial 
 - is a Java API for connecting and interacting with relational databases. It provides a set of classes and interfaces that enable Java applications to execute SQL statements, retrieve results, and manage database connections.
 - JDBC provides a powerful and flexible mechanism for Java applications to interact with relational databases, enabling seamless integration of database functionality into Java applications.
 
+### Apache Tomcat
+- Apache Tomcat is not an SQL server; it is a web server and servlet container primarily used for hosting Java web applications. It is commonly used to deploy and run Java servlets, JavaServer Pages (JSP), and other Java-based web technologies.
+- In summary, while Apache Tomcat and an SQL server can be components of the same web application architecture, they serve different purposes: Tomcat hosts the frontend and business logic components of the web application, while the SQL server stores and manages the application’s data.
 ## in summary:
 - while JSP(javaServer page) focuses on the 
 dynamic rendering html page from the backend
@@ -41,4 +44,4 @@ and the dynamic content generation that
 would be rendered using JSP - JDBC java
 database connectivity is the API that connects
 the Servlet to the Database. providing
-giving servlet the ability to query the database
+giving servlet the ability to query the database.
